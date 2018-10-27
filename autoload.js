@@ -1,8 +1,8 @@
-$("<link>").attr({href: "https://github.com/ltggggg/live2d-widget.git/waifu.css", rel: "stylesheet", type: "text/css"}).appendTo('head');
+$("<link>").attr({href: "ltggggg/live2d-widget/waifu.css", rel: "stylesheet", type: "text/css"}).appendTo('head');
 //waifu.css的绝对路径
 
 $.ajax({
-	url: 'https://github.com/ltggggg/live2d-widget.git/live2d.min.js',
+	url: 'ltggggg/live2d-widget/live2d.min.js',
 	dataType:"script",
 	cache: true,
 	async: false
@@ -10,7 +10,7 @@ $.ajax({
 //live2d.min.js的绝对路径
 
 $.ajax({
-	url: 'https://github.com/ltggggg/live2d-widget.git/waifu-tips.js',
+	url: 'ltggggg/live2d-widget/live2d-widget.git/waifu-tips.js',
 	dataType:"script",
 	cache: true,
 	async: false
